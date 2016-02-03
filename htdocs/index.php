@@ -4,7 +4,7 @@ require_once '../core/bootstrap.php';
 
 // Set a Smart default: Apache Error log
 $log = (!isset($_GET['log'])) ? 'apache1' : $_GET['log'];
-$lines = (!isset($_GET['lines'])) ? '10' : $_GET['lines'];
+$lines = (!isset($_GET['lines'])) ? '100' : $_GET['lines'];
 
 $file = $files[$log]['path'];
 $title = $files[$log]['name'];
@@ -23,6 +23,12 @@ $title = $files[$log]['name'];
     </head>
     <body>
     <div id="layout">
+
+        <!-- Menu toggle -->
+        <a href="#menu" id="menuLink" class="pure-menu-heading">
+            <!-- Hamburger icon -->
+            <span></span>
+        </a>
 
         <div id="menu">
             <div class="pure-menu">
@@ -51,7 +57,7 @@ $title = $files[$log]['name'];
                 <p>How many lines to display?
 
                 <form action="" method="get">
-                    <input type="hidden" name="p" value="<?php $log ?>">
+                    <input type="hidden" name="log" value="<?php echo $log ?>">
                     <select name="lines" onchange="this.form.submit()">
                         <option
                           value="10" <?php ($lines == '10') ? 'selected' : '' ?>>

@@ -6,4 +6,4 @@ PHP server log viewer
 
 # Resource
 
-Based on an original idea from @pixeline
+Based on an original idea from Alexandre Plennevaux (@pixeline)
