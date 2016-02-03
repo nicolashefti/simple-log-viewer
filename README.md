@@ -1,9 +1,6 @@
 # Simple log viewer
+
 PHP server log viewer
-
-# Develop
-
-
 
 # Setup
 

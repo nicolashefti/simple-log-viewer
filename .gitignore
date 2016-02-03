@@ -3,3 +3,6 @@
 
 ## Directory-based project format:
 .idea/
+
+## Do not follow user defined config
+app-config.php
