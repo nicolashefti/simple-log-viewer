@@ -5,4 +5,4 @@
 .idea/
 
 ## Do not follow user defined config
-app-config-io.php
+app-config.php
