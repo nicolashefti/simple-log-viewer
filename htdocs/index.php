@@ -1,32 +1,12 @@
 <?php
-/*
-    @name           Server Logs Viewer
-    @description    Emulates the tail() function. View the latest lines of your LAMP server logs in your browser.
-    @author         Alexandre Plennevaux (pixeline.be)
-    @date           15.07.2014
-*/
 
-// Absolute local path to your server 'log' directory
-define('LOG_PATH', '/srv/data/var/log/');
-define('DISPLAY_REVERSE', true); // true = displays log entries starting with the most recent
-
-// Files that you want to have access to, inside the LOG_PATH directory
-$files = [
-    'apache1' => ['name' => 'Apache Error Log', 'path' => LOG_PATH . 'apache/error.log'],
-    'WWW'     => ['name' => 'www Error Log', 'path' => LOG_PATH . 'www/www-error.log'],
-    'FPM'     => ['name' => 'FPM Log', 'path' => LOG_PATH . 'www/fpm.log'],
-    'apache2' => ['name' => 'Apache Access Log', 'path' => LOG_PATH . 'apache/access.log'],
-    'cron1'   => ['name' => 'Cron User Log', 'path' => LOG_PATH . 'cron/user.log'],
-    'cron2'   => ['name' => 'Cron Admin Log', 'path' => LOG_PATH . 'cron/admin.log'],
-
-];
+require_once '../core/bootstrap.php';
 
 // Set a Smart default: Apache Error log
-$log = (!isset($_GET['p'])) ? 'apache1' : $_GET['p'];
+$log = (!isset($_GET['log'])) ? 'apache1' : $_GET['log'];
 $lines = (!isset($_GET['lines'])) ? '10' : $_GET['lines'];
 
 $file = $files[$log]['path'];
-
 $title = $files[$log]['name'];
 ?>
     <!doctype html>
@@ -35,23 +15,28 @@ $title = $files[$log]['name'];
         <meta charset="utf-8">
         <title>Server Logs</title>
         <meta name="description"
-              content="Gandi SimpleHosting Server Logs gives an easy access to the (sometimes very heavy) server's last logs, typically on a Gandi SimpleHosting server.">
-        <meta name="author" content="pixeline">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
-        <link rel="stylesheet" href="style.css">
+              content="Gandi SimpleHosting Server logs viewer">
+        <meta name="author" content="appizy">
+        <link rel="stylesheet"
+              href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="css/layouts/side-menu.css">
     </head>
     <body>
     <div id="layout">
-        <!-- Menu toggle -->
-        <a href="#menu" id="menuLink" class="menu-link">
-            <!-- Hamburger icon -->
-            <span></span>
-        </a>
 
         <div id="menu">
             <div class="pure-menu">
-                <a class="pure-menu-heading" href="#">Server Logs</a>
-
+                <a class="pure-menu-heading" href="/">Server Logs</a>
+                <ul class="pure-menu-list">
+                    <?php foreach ($files as $logId => $logData) { ?>
+                        <li class="pure-menu-item">
+                            <a class="pure-menu-link"
+                               href="?log=<?php echo urlencode($logId) ?>">
+                                <?php echo $logData['name'] ?>
+                            </a>
+                        </li>
+                    <?php } ?>
+                </ul>
             </div>
         </div>
 
@@ -59,45 +44,56 @@ $title = $files[$log]['name'];
             <div class="header">
                 <h1><?= $title; ?></h1>
 
-                <h2 class="content-subhead">Here are the last <?= $lines ?> of your <?= $title ?>
+                <h2 class="content-subhead">Here are the last <?= $lines ?> of
+                    your <?= $title ?>
                     <small>(<?= $file ?>)</small>
                 </h2>
                 <p>How many lines to display?
 
                 <form action="" method="get">
-                    <input type="hidden" name="p" value="<?= $log ?>">
+                    <input type="hidden" name="p" value="<?php $log ?>">
                     <select name="lines" onchange="this.form.submit()">
-                        <option value="10" <?= ($lines == '10') ? 'selected' : '' ?>>10</option>
-                        <option value="50" <?= ($lines == '50') ? 'selected' : '' ?>>50</option>
-                        <option value="100" <?= ($lines == '100') ? 'selected' : '' ?>>100</option>
-                        <option value="500" <?= ($lines == '500') ? 'selected' : '' ?>>500</option>
+                        <option
+                          value="10" <?php ($lines == '10') ? 'selected' : '' ?>>
+                            10
+                        </option>
+                        <option
+                          value="50" <?php ($lines == '50') ? 'selected' : '' ?>>
+                            50
+                        </option>
+                        <option
+                          value="100" <?php ($lines == '100') ? 'selected' : '' ?>>
+                            100
+                        </option>
+                        <option
+                          value="500" <?php ($lines == '500') ? 'selected' : '' ?>>
+                            500
+                        </option>
                     </select>
                 </form>
                 </p>
             </div>
 
             <div class="content">
-
-                <code><pre style="font-size:14px;font-family:monospace;color:black;white-space: inherit"><ol reversed>
-                            <?
-                            $output = tail($file, $lines);
-                            $output = explode("\n", $output);
-                            if (DISPLAY_REVERSE) {
-                                // Latest first
-                                $output = array_reverse($output);
-                            }
-                            foreach ($output as $out) {
-                                if (trim($out) != '') {
-                                    echo '<li>' . htmlspecialchars($out) . '</li>';
+                <code>
+                    <pre>
+                        <ol>
+                            <?php
+                            if (file_exists($file)) {
+                                $output = tail($file, $lines);
+                                $output = explode("\n", $output);
+                                if(DISPLAY_REVERSE){
+                                    // Latest first
+                                    $output = array_reverse($output);
                                 }
-                            }
-                            ?>
-                        </ol></pre>
+                                $output = implode('<li>',$output);
+                                echo $output;
+                            } else {
+                                echo "Log file not found in " . $file;
+                            } ?>
+                        </ol>
+                    </pre>
                 </code>
-                <footer>
-                    <p class="credits"><a href="//pixeline.be">Script provided by pixeline</a>, thanks to <a
-                            href="//purecss.io/">purecss.io</a></p>
-                </footer>
             </div>
         </div>
     </div>
@@ -105,13 +101,13 @@ $title = $files[$log]['name'];
         (function (window, document) {
 
             var layout = document.getElementById('layout'),
-                menu = document.getElementById('menu'),
-                menuLink = document.getElementById('menuLink');
+              menu = document.getElementById('menu'),
+              menuLink = document.getElementById('menuLink');
 
             function toggleClass(element, className) {
                 var classes = element.className.split(/\s+/),
-                    length = classes.length,
-                    i = 0;
+                  length = classes.length,
+                  i = 0;
 
                 for (; i < length; i++) {
                     if (classes[i] === className) {
@@ -152,7 +148,9 @@ function tail($filename, $lines = 10, $buffer = 4096)
 
     // Read it and adjust line number if necessary
     // (Otherwise the result would be wrong if file doesn't end with a blank line)
-    if (fread($f, 1) != "\n") $lines -= 1;
+    if (fread($f, 1) != "\n") {
+        $lines -= 1;
+    }
 
     // Start reading
     $output = '';
@@ -185,5 +183,6 @@ function tail($filename, $lines = 10, $buffer = 4096)
 
     // Close file and return
     fclose($f);
+
     return $output;
 }

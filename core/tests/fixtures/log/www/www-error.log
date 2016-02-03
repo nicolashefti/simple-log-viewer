@@ -1,0 +1,190 @@
+[15-Mar-2015 15:22:42 Europe/Berlin] PHP Notice:  TableElement: Unexistent row: s0r362 in /srv/data/web/vhosts/appizy.com/htdocs/appizy/service/SheetColRowCell.class.php on line 17
+[15-Mar-2015 15:22:43 Europe/Berlin] PHP Notice:  TableElement: Unexistent cell r18c37 in /srv/data/web/vhosts/appizy.com/htdocs/appizy/service/SheetColRowCell.class.php on line 17
+[15-Mar-2015 15:22:43 Europe/Berlin] PHP Notice:  TableElement: Unexistent cell: s0r18c37 in /srv/data/web/vhosts/appizy.com/htdocs/appizy/service/SheetColRowCell.class.php on line 17
+[15-Mar-2015 15:22:43 Europe/Berlin] PHP Notice:  TableElement: Unexistent cell r8c14 in /srv/data/web/vhosts/appizy.com/htdocs/appizy/service/SheetColRowCell.class.php on line 17
+[15-Mar-2015 15:22:43 Europe/Berlin] PHP Notice:  TableElement: Unexistent cell: s0r8c14 in /srv/data/web/vhosts/appizy.com/htdocs/appizy/service/SheetColRowCell.class.php on line 17
+[15-Mar-2015 15:22:43 Europe/Berlin] PHP Notice:  TableElement: Unexistent cell r18c37 in /srv/data/web/vhosts/appizy.com/htdocs/appizy/service/SheetColRowCell.class.php on line 17
+[06-Nov-2015 16:36:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in /srv/data/web/vhosts/dev.appizy.com/htdocs/services/deploy-appizy-rc.php on line 5
+[06-Nov-2015 16:36:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in /srv/data/web/vhosts/dev.appizy.com/htdocs/services/deploy-appizy-rc.php on line 5
+[12-Nov-2015 21:30:37 Europe/Berlin] PHP Warning:  file_get_contents(/srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/../config/config.yml): failed to open stream: No such file or directory in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php on line 12
+[12-Nov-2015 21:30:37 Europe/Berlin] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot append view data. Expected array argument.' in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php:191
+Stack trace:
+#0 /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php(13): Slim\View->appendData(NULL)
+#1 {main}
+  thrown in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php on line 191
+[12-Nov-2015 21:30:44 Europe/Berlin] PHP Warning:  file_get_contents(/srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/../config/config.yml): failed to open stream: No such file or directory in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php on line 12
+[12-Nov-2015 21:30:44 Europe/Berlin] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot append view data. Expected array argument.' in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php:191
+Stack trace:
+#0 /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php(13): Slim\View->appendData(NULL)
+#1 {main}
+  thrown in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php on line 191
+[12-Nov-2015 21:30:44 Europe/Berlin] PHP Warning:  file_get_contents(/srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/../config/config.yml): failed to open stream: No such file or directory in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php on line 12
+[12-Nov-2015 21:30:44 Europe/Berlin] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot append view data. Expected array argument.' in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php:191
+Stack trace:
+#0 /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php(13): Slim\View->appendData(NULL)
+#1 {main}
+  thrown in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php on line 191
+[12-Nov-2015 21:33:12 Europe/Berlin] PHP Warning:  file_get_contents(/srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/../config/config.yml): failed to open stream: No such file or directory in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php on line 12
+[12-Nov-2015 21:33:12 Europe/Berlin] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot append view data. Expected array argument.' in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php:191
+Stack trace:
+#0 /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php(13): Slim\View->appendData(NULL)
+#1 {main}
+  thrown in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php on line 191
+[12-Nov-2015 21:36:44 Europe/Berlin] PHP Warning:  file_get_contents(/srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/../config/config.yml): failed to open stream: No such file or directory in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php on line 12
+[12-Nov-2015 21:36:44 Europe/Berlin] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot append view data. Expected array argument.' in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php:191
+Stack trace:
+#0 /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php(13): Slim\View->appendData(NULL)
+#1 {main}
+  thrown in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php on line 191
+[12-Nov-2015 21:36:45 Europe/Berlin] PHP Warning:  file_get_contents(/srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/../config/config.yml): failed to open stream: No such file or directory in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php on line 12
+[12-Nov-2015 21:36:45 Europe/Berlin] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Cannot append view data. Expected array argument.' in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php:191
+Stack trace:
+#0 /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/htdocs/index.php(13): Slim\View->appendData(NULL)
+#1 {main}
+  thrown in /srv/data/web/vhosts/rc.appizy.com/62f9d5a7d8c2a4fed634ec5dee60dd8ae2779ecd/vendor/slim/slim/Slim/View.php on line 191
+[20-Nov-2015 21:04:05 Europe/Berlin] PHP Fatal error:  Class 'WP_Dependencies' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class.wp-scripts.php on line 19
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function _deprecated_file() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-snoopy.php on line 6
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_filter() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/default-filters.php on line 17
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php): failed to open stream: No such file or directory in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/script-loader.php on line 25
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/share/php:/srv/data/web/includes') in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/script-loader.php on line 25
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function _deprecated_file() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/registration-functions.php on line 7
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/functions.php on line 8
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/share/php:/srv/data/web/includes') in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/functions.php on line 8
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function feed_content_type() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/feed-rss.php on line 8
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_shortcode() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/media.php on line 769
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/kses.php on line 1614
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Class 'Walker' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/category-template.php on line 886
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function _deprecated_file() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/rss-functions.php on line 8
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/post.php on line 167
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function feed_content_type() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/feed-rss2.php on line 8
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_filter() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/shortcodes.php on line 560
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/ms-functions.php on line 2064
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Class 'WP_Image_Editor' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-wp-image-editor-gd.php on line 17
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-simplepie.php on line 5
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/share/php:/srv/data/web/includes') in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-simplepie.php on line 5
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function is_admin() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/vars.php on line 23
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Class 'IXR_Client' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-wp-http-ixr-client.php on line 9
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_filter() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/post-formats.php on line 170
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_filter() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/ms-default-filters.php on line 17
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function _deprecated_file() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/rss.php on line 19
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/general-template.php on line 1608
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php): failed to open stream: No such file or directory in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-feed.php on line 4
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/share/php:/srv/data/web/includes') in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-feed.php on line 4
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function is_robots() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/template-loader.php on line 28
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/theme.php on line 669
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Class 'Walker' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/nav-menu-template.php on line 16
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function feed_content_type() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/feed-rdf.php on line 8
+[20-Nov-2015 21:04:06 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/canonical.php on line 530
+[20-Nov-2015 21:04:11 Europe/Berlin] PHP Fatal error:  Class 'Walker' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/post-template.php on line 1186
+[20-Nov-2015 21:04:11 Europe/Berlin] PHP Fatal error:  Call to undefined function feed_content_type() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/feed-atom.php on line 8
+[20-Nov-2015 21:04:12 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/author-template.php on line 459
+[20-Nov-2015 21:04:12 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/admin-bar.php on line 48
+[20-Nov-2015 21:04:12 Europe/Berlin] PHP Fatal error:  Call to undefined function is_main_site() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/update.php on line 629
+[20-Nov-2015 21:04:13 Europe/Berlin] PHP Fatal error:  Call to undefined function feed_content_type() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/feed-rss2-comments.php on line 8
+[20-Nov-2015 21:04:14 Europe/Berlin] PHP Fatal error:  Call to undefined function feed_content_type() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/feed-atom-comments.php on line 8
+[20-Nov-2015 21:04:14 Europe/Berlin] PHP Fatal error:  Class 'WP_Dependencies' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class.wp-styles.php on line 19
+[20-Nov-2015 21:04:14 Europe/Berlin] PHP Fatal error:  Class 'Walker' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/comment-template.php on line 1546
+[20-Nov-2015 21:04:14 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/ms-default-constants.php on line 151
+[20-Nov-2015 21:04:15 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/taxonomy.php on line 129
+[20-Nov-2015 21:04:15 Europe/Berlin] PHP Fatal error:  Class 'WP_Widget' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/default-widgets.php on line 14
+[20-Nov-2015 21:04:15 Europe/Berlin] PHP Fatal error:  Class 'IXR_Server' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-wp-xmlrpc-server.php on line 23
+[20-Nov-2015 21:04:15 Europe/Berlin] PHP Fatal error:  Call to undefined function add_filter() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-wp-embed.php on line 20
+[20-Nov-2015 21:04:15 Europe/Berlin] PHP Fatal error:  Class 'WP_Image_Editor' not found in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/class-wp-image-editor-imagick.php on line 17
+[20-Nov-2015 21:04:16 Europe/Berlin] PHP Fatal error:  Call to undefined function _deprecated_file() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/registration.php on line 7
+[20-Nov-2015 21:08:53 Europe/Berlin] PHP Warning:  require(ABSPATHWPINC/ms-load.php): failed to open stream: No such file or directory in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/ms-settings.php on line 14
+[20-Nov-2015 21:08:53 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/share/php:/srv/data/web/includes') in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-includes/ms-settings.php on line 14
+[23-Nov-2015 20:44:09 Europe/Berlin] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 52948481 bytes) in Unknown on line 0
+[24-Nov-2015 12:48:06 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/7de014a2bd80a3aa732efddf7c7095b14a06e06d/htdocs/file_upload.php on line 35
+[24-Nov-2015 12:48:08 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/56544e763f4bd/null): No such file or directory in /srv/data/web/vhosts/www.appizy.com/7de014a2bd80a3aa732efddf7c7095b14a06e06d/htdocs/launcher.php on line 22
+[01-Dec-2015 07:26:14 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/5dcaca3652afff7bcd97891162929f16dbf26eaa/htdocs/launcher.php on line 22
+[01-Dec-2015 07:26:26 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/5dcaca3652afff7bcd97891162929f16dbf26eaa/htdocs/launcher.php on line 22
+[01-Dec-2015 07:26:26 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/5dcaca3652afff7bcd97891162929f16dbf26eaa/htdocs/launcher.php on line 22
+[02-Dec-2015 05:52:41 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/5dcaca3652afff7bcd97891162929f16dbf26eaa/htdocs/launcher.php on line 22
+[02-Dec-2015 10:07:52 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/5dcaca3652afff7bcd97891162929f16dbf26eaa/htdocs/file_upload.php on line 35
+[02-Dec-2015 10:07:58 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/565eb4e875dd1/): Is a directory in /srv/data/web/vhosts/www.appizy.com/5dcaca3652afff7bcd97891162929f16dbf26eaa/htdocs/launcher.php on line 22
+[04-Dec-2015 16:12:29 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/5dcaca3652afff7bcd97891162929f16dbf26eaa/htdocs/launcher.php on line 22
+[08-Dec-2015 23:05:02 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/16fe88212fd5c9afc02d90602f52f37dd164d2e5/htdocs/launcher.php on line 22
+[10-Dec-2015 23:13:54 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/16fe88212fd5c9afc02d90602f52f37dd164d2e5/htdocs/file_upload.php on line 35
+[10-Dec-2015 23:13:58 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/5669f921f0e2a/): Is a directory in /srv/data/web/vhosts/www.appizy.com/16fe88212fd5c9afc02d90602f52f37dd164d2e5/htdocs/launcher.php on line 22
+[10-Dec-2015 23:15:11 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/16fe88212fd5c9afc02d90602f52f37dd164d2e5/htdocs/file_upload.php on line 35
+[10-Dec-2015 23:15:15 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/5669f96f54743/): Is a directory in /srv/data/web/vhosts/www.appizy.com/16fe88212fd5c9afc02d90602f52f37dd164d2e5/htdocs/launcher.php on line 22
+[12-Dec-2015 16:25:35 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/16fe88212fd5c9afc02d90602f52f37dd164d2e5/htdocs/launcher.php on line 22
+[14-Dec-2015 10:17:01 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[14-Dec-2015 10:17:09 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[14-Dec-2015 10:17:13 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[15-Dec-2015 16:55:55 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[15-Dec-2015 16:56:04 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[15-Dec-2015 16:56:09 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/56703814f3bc5/): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[15-Dec-2015 23:45:46 Europe/Berlin] PHP Notice:  Undefined index: app_id in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 13
+[15-Dec-2015 23:45:46 Europe/Berlin] PHP Notice:  Undefined index: filename in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 14
+[15-Dec-2015 23:45:47 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[16-Dec-2015 18:12:58 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/56719b90e56c9/Acquisition ): No such file or directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[16-Dec-2015 18:13:18 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/56719bab7a705/Acquisition ): No such file or directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[16-Dec-2015 18:13:34 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/56719bbcbd2d8/Acquisition ): No such file or directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Dec-2015 09:31:02 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[17-Dec-2015 09:31:06 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/567272c692a7e/): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[25-Dec-2015 21:55:55 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[29-Dec-2015 11:03:28 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[29-Dec-2015 11:03:32 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/56825a701a553/): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[29-Dec-2015 11:04:01 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[29-Dec-2015 11:06:15 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[29-Dec-2015 11:06:21 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/56825b17c3a83/): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[29-Dec-2015 11:09:26 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[29-Dec-2015 20:26:09 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[29-Dec-2015 20:26:14 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/5682de519275f/): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[29-Dec-2015 20:26:42 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[29-Dec-2015 20:26:45 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/5682de72d92ef/): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[31-Dec-2015 14:10:13 Europe/Berlin] PHP Fatal error:  Call to undefined function add_action() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-content/plugins/hello.php on line 60
+[04-Jan-2016 12:33:50 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/568a5899b8a9f/EIS ): No such file or directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[04-Jan-2016 12:35:41 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/568a590b35523/EIS ): No such file or directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[04-Jan-2016 18:16:02 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-content/themes/twentythirteen/404.php on line 10
+[04-Jan-2016 18:16:02 Europe/Berlin] PHP Fatal error:  Call to undefined function get_header() in /srv/data/web/vhosts/ferienwohnungen-rueckert.de/htdocs/wp-content/themes/twentytwelve/404.php on line 10
+[08-Jan-2016 13:22:27 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[08-Jan-2016 13:22:36 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[08-Jan-2016 13:22:36 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[08-Jan-2016 13:22:36 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[08-Jan-2016 13:22:52 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[12-Jan-2016 03:04:29 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[12-Jan-2016 03:04:43 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[12-Jan-2016 03:04:43 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[12-Jan-2016 17:21:44 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[13-Jan-2016 03:12:35 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[13-Jan-2016 03:12:39 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[13-Jan-2016 03:12:57 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[13-Jan-2016 03:13:02 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[14-Jan-2016 08:14:41 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[14-Jan-2016 15:04:54 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[14-Jan-2016 15:04:58 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[14-Jan-2016 15:05:13 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[14-Jan-2016 16:41:40 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[14-Jan-2016 17:09:49 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[14-Jan-2016 17:10:04 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[15-Jan-2016 00:15:59 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[15-Jan-2016 00:16:04 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/56982c2fe9bde/): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[15-Jan-2016 00:16:33 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[15-Jan-2016 00:16:35 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/56982c51afcae/): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[16-Jan-2016 11:28:29 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[16-Jan-2016 11:28:50 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[16-Jan-2016 11:29:16 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[16-Jan-2016 11:34:05 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:20:04 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:20:48 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:20:51 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:20:51 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:20:51 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:20:58 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:21:01 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:21:01 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:21:02 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:22:24 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:22:25 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:22:26 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[17-Jan-2016 00:22:28 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[19-Jan-2016 20:50:22 Europe/Berlin] PHP Warning:  json_encode(): Invalid UTF-8 sequence in argument in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/file_upload.php on line 35
+[19-Jan-2016 20:50:45 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp/569e937e45925/): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[23-Jan-2016 11:57:20 Europe/Berlin] PHP Notice:  Undefined index: app_id in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 13
+[23-Jan-2016 11:57:21 Europe/Berlin] PHP Notice:  Undefined index: filename in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 14
+[23-Jan-2016 11:57:22 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[24-Jan-2016 08:05:52 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[24-Jan-2016 08:05:59 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
+[26-Jan-2016 12:14:46 Europe/Berlin] PHP Warning:  unlink(htdocs/tmp): Is a directory in /srv/data/web/vhosts/www.appizy.com/26409bb33fa995497a4412068548fdfa480afd23/htdocs/launcher.php on line 22
